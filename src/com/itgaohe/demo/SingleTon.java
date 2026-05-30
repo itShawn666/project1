@@ -7,6 +7,7 @@ package com.itgaohe.demo;
  * @Created by 孟祥宇
  */
 public class SingleTon {
+    11
     // volatile 关键字修饰变量 防止指令重排序
     private static volatile SingleTon instance=null;
     private SingleTon(){}
